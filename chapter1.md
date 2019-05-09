@@ -29,7 +29,7 @@ This is an example exercise. Ehk esimene näide.
 
 `@sample_code`
 ```{r}
-# summa 
+# summa 555
 ___ + ___ + ___
 # jagamine
 ___ / ___
