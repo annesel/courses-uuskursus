@@ -64,6 +64,7 @@ test_student_typed("3",  not_typed_msg = "Kontrolli, kas esimese ülesande tehe 
 test_student_typed("4",  not_typed_msg = "Kontrolli, kas esimese ülesande tehe on kujul `3 + 4`!")
  
 
+
 # teine
 test_object("x",  undefined_msg = "Vali muutuja nimeks `x`.",  incorrect_msg = "Omistasid muutujale  `x` vale väärtuse. Proovi uuesti!")
 success_msg("Tubli! Katsetamise ülesanne on tehtud, asu nüüd päris ülesandeid lahendama!")
