@@ -43,7 +43,6 @@ Oma vastuse esitamiseks vajuta `Submit Answer`-nuppu, siis saadetakse ülesanded
 # Liida
 3 + 4
 
-
 # Omista
 
 ```
