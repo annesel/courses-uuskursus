@@ -59,7 +59,7 @@ x <- 9
 `@sct`
 ```{r}
 # esimene
-check_output(state = ex(),regex = "3 + 4", fixed = TRUE, times = 1, incorrect_msg = "Oled esimeses ülesandes õige vastuse valeks parandanud. Alusta uuesti!")
+check_output_expr(state = ex(),expr = "3 + 4",   times = 1, missing_msg = "Oled esimeses ülesandes õige vastuse valeks parandanud. Alusta uuesti!")
 test_student_typed("3",  not_typed_msg = "Kontrolli, kas esimese ülesande tehe on kujul `3 + 4`!")
 test_student_typed("4",  not_typed_msg = "Kontrolli, kas esimese ülesande tehe on kujul `3 + 4`!")
  
