@@ -1,9 +1,9 @@
 ---
-title: 'Chapter Title Here'
+title: ' Sissejuhatus'
 description: 'Chapter description goes here.'
 ---
 
-## Example coding exercise
+## Näiteülesanne
 
 ```yaml
 type: NormalExercise
