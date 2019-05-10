@@ -27,7 +27,7 @@ Oma vastuse esitamiseks vajuta `Submit Answer`-nuppu, siis saadetakse ülesanded
 **Prooviülesanne (0 punkti):**
 
 - Liida arvud 3 ja 4.
-- Omista väärtus 7 muutujale `x`.
+- Omista väärtus 9 muutujale `x`.
 
 `@hint`
 - Liitmiseks kasuta märki `+` või funktsiooni `sum`
@@ -53,7 +53,7 @@ Oma vastuse esitamiseks vajuta `Submit Answer`-nuppu, siis saadetakse ülesanded
 3 + 4
 
 # Omista
-x <- 7
+x <- 9
 ```
 
 `@sct`
@@ -63,10 +63,27 @@ test_output_contains("3 + 4", times = 1, incorrect_msg = "Oled esimeses ülesand
 test_student_typed("3",  not_typed_msg = "Kontrolli, kas esimese ülesande tehe on kujul `3 + 4`!")
 test_student_typed("4",  not_typed_msg = "Kontrolli, kas esimese ülesande tehe on kujul `3 + 4`!")
  
-
-
 # teine
 test_object("x",  undefined_msg = "Vali muutuja nimeks `x`.",  incorrect_msg = "Omistasid muutujale  `x` vale väärtuse. Proovi uuesti!")
+
+
 success_msg("Tubli! Katsetamise ülesanne on tehtud, asu nüüd päris ülesandeid lahendama!")
+
+```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: BulletExercise
+key: ad3b09f09f
+xp: 100
+```
+
+
+
+`@pre_exercise_code`
+```{r}
 
 ```
