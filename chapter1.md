@@ -13,7 +13,6 @@ xp: 100
 skills: 1
 ```
 
-
 Kirjuta kõigi ülesannete lahendused paremal aknapoolel olevasse *SCRIPT.R* lehele, vastava ülesande sõnastuse alla. Siinses näites on esimese ülesande lahendus juba kirja pandud.
 
 Ühe vastuse väljaarvutamiseks või testimiseks pane *SCRIPT.R* lehel hiirekursor vastava rea peale ja vajuta klahvikombinatsiooni `Ctrl+Enter`, 
