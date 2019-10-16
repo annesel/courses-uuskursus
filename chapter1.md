@@ -59,15 +59,18 @@ x <- 9
 ```{r}
 # esimene
 check_output_expr(state = ex(),expr = "3 + 4",   times = 1, missing_msg = "Oled esimeses ülesandes õige vastuse valeks parandanud. Alusta uuesti!")
-test_student_typed("3",  not_typed_msg = "Kontrolli, kas esimese ülesande tehe on kujul `3 + 4`!")
-test_student_typed("4",  not_typed_msg = "Kontrolli, kas esimese ülesande tehe on kujul `3 + 4`!")
+ex() %>% check_code("3",  missing_msg = "Kontrolli, kas esimese ülesande tehe on kujul `3 + 4`!")
+ex() %>% check_code("4",  missing_msg = "Kontrolli, kas esimese ülesande tehe on kujul `3 + 4`!")
  
 # teine
-test_object("x",  undefined_msg = "Vali muutuja nimeks `x`.",  incorrect_msg = "Omistasid muutujale  `x` vale väärtuse. Proovi uuesti!")
+ex() %>% check_object("x") %>% check_equal()
+#("x",  undefined_msg = "Vali muutuja nimeks `x`.",  incorrect_msg = "Omistasid muutujale  `x` vale väärtuse. Proovi uuesti!")
 
 
 success_msg("Tubli! Katsetamise ülesanne on tehtud, asu nüüd päris ülesandeid lahendama!")
 
+
+ 
 ```
 
 ---
