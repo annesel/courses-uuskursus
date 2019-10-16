@@ -63,8 +63,8 @@ ex() %>% check_code("3",  missing_msg = "Kontrolli, kas esimese ülesande tehe o
 ex() %>% check_code("4",  missing_msg = "Kontrolli, kas esimese ülesande tehe on kujul `3 + 4`!")
  
 # teine
-ex() %>% check_object("x") %>% check_equal()
-#("x",  undefined_msg = "Vali muutuja nimeks `x`.",  incorrect_msg = "Omistasid muutujale  `x` vale väärtuse. Proovi uuesti!")
+ex() %>% check_object("x",  undefined_msg = "Vali muutuja nimeks `x`.") %>% check_equal(  incorrect_msg = "Omistasid muutujale  `x` vale väärtuse. Proovi uuesti!")
+ 
 
 
 success_msg("Tubli! Katsetamise ülesanne on tehtud, asu nüüd päris ülesandeid lahendama!")
