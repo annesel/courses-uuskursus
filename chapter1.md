@@ -13,7 +13,7 @@ xp: 100
 skills: 1
 ```
 
-Kirjuta kõigi ülesannete lahendused paremal aknapoolel olevasse *SCRIPT.R* lehele, vastava ülesande sõnastuse alla. Siinses näites on esimese ülesande lahendus juba kirja pandud.
+Kirjuta kõigi ülesannete lahendused paremal aknapoolel olevasse *SCRIPT.R* lehele, vastava ülesande sõnastuse alla. Siinses näites on esimese ülesande lahendus juba kirjas.
 
 Ühe vastuse väljaarvutamiseks või testimiseks pane *SCRIPT.R* lehel hiirekursor vastava rea peale ja vajuta klahvikombinatsiooni `Ctrl+Enter`, 
 sellega saadetakse vastav rida allpool olevale R-i konsoolile täitmiseks. Kogu koodi täitmiseks vajuta nuppu `Run Code`, sama nupuga saab koodi konsoolile saata ka rida või plokk haaval, siis aga peaks vastav osa koodist hiirega aktiivseks valitud olema. Konsooli käsurida võid ka kasutada: kirjuta käsk ning vajuta täitmiseks `Enter`-klahvi. Proovi siin ülesandes need võimalused läbi.
